@@ -1324,4 +1324,44 @@ a{
       margin-top: 0.4;
   }
 
+}
+
+@media screen and (max-width:576px) {
+  html{
+      font-size: 10px;
+  }
+  .container{
+      max-width: 540px;
+  }
+  .sm-flex-100{
+      flex: 0 1 100%;
+  }
+  .sm-wrap{
+      flex-wrap: wrap;
+  }
+  .sm-text-center{
+      text-align: center;
+  }
+  .sm-justify-content{
+      justify-content: flex-start;
+  }
+  .absolute-about{
+      top: 17%;
+      left: 44%;
+  }
+  .about-color a {
+      width: 21%;
+  }
+  .service-background a{
+      width: 14%;
+  }
+  .position-subscribe {
+      top: 71%;
+      right: 37%;
+  }
+  .blog-bar{
+      padding-left: 1rem;
+  }
+  
+}
 
